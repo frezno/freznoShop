@@ -3,7 +3,7 @@
 @section('content')
 <div class="row">
 
-    @include('navigation.left-nav')
+    @include('navigation.left-nav', ['parent_id' => 1, 'group' => 1])
 
     <div class="col-md-9">
         <div class="jumbotron">

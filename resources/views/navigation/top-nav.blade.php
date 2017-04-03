@@ -1,3 +1,5 @@
+@inject('nav', 'App\Models\Category')
+
 <!-- Top Navigation -->
 <nav class="navbar navbar-default navbar-static-top">
     <div class="container">
@@ -20,10 +22,9 @@
         <div class="collapse navbar-collapse" id="app-navbar-collapse">
             <!-- Left Side of Top Navbar -->
             <ul class="nav navbar-nav">
-                <li><a href="#">Category 1</a></li>
-                <li><a href="#">Category 2</a></li>
-                <li><a href="#">Category 3</a></li>
-                <li><a href="#">Category 4</a></li>
+                @foreach ($nav::getCategories(0, 0) as $top_nav)
+                    <li><a href="{{ url('/'.$top_nav->slug) }}">{{ $top_nav->name }}</a></li>
+                @endforeach
             </ul>
 
             <!-- Right Side of Top Navbar -->

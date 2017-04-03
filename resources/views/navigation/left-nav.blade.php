@@ -1,60 +1,46 @@
+@inject('nav', 'App\Models\Category')
+
 <!-- Left Navigation -->
 <div class="col-md-3">
     <div class="panel-group category-products" id="accordian">
+        @foreach ($nav::getCategories($parent_id, $group) as $parent)
+        <?php
+            $children = $nav::getCategories($parent->id, $group);
+            $subcat = count($children);
+        ?>
+            {{-- If there are any sub-categories --}}
+            @if ($subcat >= 1)
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordian" href="#{{ $parent->slug }}">
+                                {{ $parent->name }}
+                                <span class="glyphicon glyphicon-plus text-right" aria-hidden="true"></span>
+                            </a>
+                        </h4>
+                    </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordian" href="#parent_slug1">
-                        Category 1-1
-                        <span class="glyphicon glyphicon-plus text-right" aria-hidden="true"></span>
-                    </a>
-                </h4>
-            </div>
-            <div id="parent_slug1" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <ul style="list-style: none">
-                        <li style="margin-bottom: 8px; margin-left: -40px">
-                            <a href="#">Subcat 1-1</a>
-                        </li>
-                        <li style="margin-bottom: 8px; margin-left: -40px">
-                            <a href="#">Subcat 1-2</a>
-                        </li>
-                        <li style="margin-bottom: 8px; margin-left: -40px">
-                            <a href="#">Subcat 1-3</a>
-                        </li>
-                    </ul>
+                    <div id="{{ $parent->slug }}" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul style="list-style: none">
+                                @foreach ($children as $child)
+                                    <li style="margin-bottom: 8px; margin-left: -40px">
+                                        <a href="{{ url('/'.$child->slug) }}">{!! $child->name !!}</a>
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordian" href="#parent_slug2">
-                        Category 1-2
-                        <span class="glyphicon glyphicon-plus text-right" aria-hidden="true"></span>
-                    </a>
-                </h4>
-            </div>
-            <div id="parent_slug2" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <ul style="list-style: none">
-                        <li style="margin-bottom: 8px; margin-left: -40px">
-                            <a href="#">Subcat 2-1</a>
-                        </li>
-                        <li style="margin-bottom: 8px; margin-left: -40px">
-                            <a href="#">Subcat 2-2</a>
-                        </li>
-                    </ul>
+            {{-- No sub-categories --}}
+            @else
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"><a href="{{ url('/'.$parent->slug) }}">{!! $parent->name !!}</a></h4>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title"><a href="#">Category 1-3</a></h4>
-            </div>
-        </div>
+            @endif
+        @endforeach
     </div>
 </div>
