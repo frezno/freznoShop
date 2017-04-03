@@ -38,7 +38,7 @@
             <div class="caption">
                 <h3>Product 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p><a href="#" class="btn btn-default">More Info</a> <a href="#" class="btn btn-success">Buy Me!</a></p>
+                <p><a href="{{ url('/product/slug') }}" class="btn btn-default">More Info</a> <a href="#" class="btn btn-success">Buy Me!</a></p>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
             <div class="caption">
                 <h3>Product 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p><a href="#" class="btn btn-default">More Info</a> <a href="#" class="btn btn-success">Buy Me!</a></p>
+                <p><a href="{{ url('/product/slug') }}" class="btn btn-default">More Info</a> <a href="#" class="btn btn-success">Buy Me!</a></p>
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@
             <div class="caption">
                 <h3>Product 4</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p><a href="#" class="btn btn-default">More Info</a> <a href="#" class="btn btn-success">Buy Me!</a></p>
+                <p><a href="{{ url('/product/slug') }}" class="btn btn-default">More Info</a> <a href="#" class="btn btn-success">Buy Me!</a></p>
             </div>
         </div>
     </div>
