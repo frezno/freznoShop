@@ -5,15 +5,15 @@
             <div class="col-md-3">
                 <h4>Legal Info</h4>
                 <ul class="nav nav-pills nav-stacked">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="{{ url('/about_us') }}">About Us</a></li>
+                    <li><a href="{{ url('/terms_and_conditions') }}">Terms &amp; Conditions</a></li>
                 </ul>
             </div>
 
             <div class="col-md-3">
                 <h4>Service</h4>
                 <ul class="nav nav-pills nav-stacked">
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="{{ url('/contact_us') }}">Contact Us</a></li>
                     <li><a href="#">How to get help</a></li>
                 </ul>
             </div>
