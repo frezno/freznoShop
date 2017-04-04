@@ -31,7 +31,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <!-- Authentication Links -->
                 @if (Auth::guest())
-                    <li><a href="{{ url('/login') }}">Login</a></li>
+                    <li><a href="{{ url('/login') }}"><i class="fa fa-sign-in"></i> Login</a></li>
                     <li><a href="{{ url('/register') }}">Register</a></li>
                 @else
                     <li class="dropdown">
@@ -44,6 +44,7 @@
                                 <a href="{{ url('/logout') }}"
                                     onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
+                                    <i class="fa fa-sign-out"></i>
                                     Logout
                                 </a>
 

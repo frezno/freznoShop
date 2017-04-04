@@ -14,8 +14,8 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordian" href="#{{ $parent->slug }}">
+                                <span class="badge pull-right"><i class="fa fa-angle-right"></i></span>
                                 {{ $parent->name }}
-                                <span class="glyphicon glyphicon-plus text-right" aria-hidden="true"></span>
                             </a>
                         </h4>
                     </div>
