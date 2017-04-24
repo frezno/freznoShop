@@ -5,6 +5,9 @@ Auth::routes();
 //-- Home Sweet Home
 Route::get('/', 'HomeController@index');
 
+//-- Admin
+Route::get('admin', function() { return view('backend.admin.dashboard'); });
+
 //-----------------------------------------------------------------------------
 //-- Products
 //-- Calling the categories and products by using a slug
