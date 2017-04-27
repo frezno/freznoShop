@@ -7,6 +7,7 @@ Route::get('/', 'HomeController@index');
 
 //-- Admin
 Route::get('admin', function() { return view('backend.admin.dashboard'); });
+Route::get('admin/categories', 'Backend\Admin\CategoriesController@index');
 
 //-----------------------------------------------------------------------------
 //-- Products
