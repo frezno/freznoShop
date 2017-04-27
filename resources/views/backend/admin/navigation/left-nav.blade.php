@@ -3,7 +3,7 @@
     <div class="panel-group" id="accordian">
 
         <div class="list-group">
-            <a href="{{ url('/admin') }}" class="list-group-item active main-color-bg">
+            <a href="{{ url('/admin/categories') }}" class="list-group-item active main-color-bg">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Categories
             </a>
         </div>
