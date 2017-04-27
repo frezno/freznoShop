@@ -40,7 +40,12 @@
     <section id="breadcrumb">
         <div class="container">
             <ol class="breadcrumb">
-                <li class="active">Dashboard</li>
+                @if (isset($breadcrumb))
+                    <li>Dashboard</li>
+                    <li class="active">{{ $breadcrumb }}</li>
+                @else
+                    <li class="active">Dashboard</li>
+                @endif
             </ol>
         </div>
     </section>
