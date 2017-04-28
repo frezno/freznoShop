@@ -42,7 +42,7 @@
                 </div>
                 <div class="col-md-3 text-center">
                     <div class="form-group">
-                        <input type="submit" value="Add Category" class="btn btn-success">
+                        <input type="submit" value="Add Category" class="btn btn-success" style="margin-top: 27px;">
                     </div>
                 </div>
             </div>
