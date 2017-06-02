@@ -41,7 +41,7 @@
         <div class="container">
             <ol class="breadcrumb">
                 @if (isset($breadcrumb))
-                    <li>Dashboard</li>
+                    <li><a href="{{ url('/admin') }}">Dashboard</a></li>
                     <li class="active">{{ $breadcrumb }}</li>
                 @else
                     <li class="active">Dashboard</li>
