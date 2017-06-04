@@ -19,6 +19,7 @@
             <!-- Left Side of Top Navbar -->
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('/admin') }}"> Dashboard</a></li>
+                <li><a href="{{ url('/') }}"> Back to Shop</a></li>
             </ul>
 
             <!-- Right Side of Top Navbar -->
