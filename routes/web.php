@@ -5,9 +5,10 @@ Auth::routes();
 //-- Home Sweet Home
 Route::get('/', 'HomeController@index');
 
+//-----------------------------------------------------------------------------
 //-- Admin
-Route::get('admin', function() { return view('backend.admin.dashboard'); });
-Route::get('admin/categories', 'Backend\Admin\CategoriesController@index');
+Route::get('admin', '\App\Backend\Admin\Controllers\DashboardController');
+Route::resource('admin/categories', '\App\Backend\Admin\Controllers\CategoriesController', ['except' => ['show', 'create']]);
 
 //-----------------------------------------------------------------------------
 //-- Products
