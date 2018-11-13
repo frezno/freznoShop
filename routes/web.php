@@ -5,6 +5,11 @@ Auth::routes();
 //-- Home Sweet Home
 Route::get('/', 'HomeController@index');
 
+//-- Static pages, just one page per topic
+Route::get('about_us', function () { return view('pages.about'); });
+Route::get('contact_us', function () { return view('pages.contact'); });
+Route::get('terms_and_conditions', function () { return view('pages.terms'); });
+
 //-----------------------------------------------------------------------------
 //-- Products
 //-- Calling the categories and products by using a slug
