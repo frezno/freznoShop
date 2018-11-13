@@ -30,6 +30,7 @@
                 <h4>Social Media</h4>
                 <ul class="nav nav-pills nav-stacked">
                     <li><a href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram-square fa-lg" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
