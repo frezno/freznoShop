@@ -18,17 +18,11 @@
 
 <body class="bg-blue-lightest font-sans min-h-screen">
 
-    <header>
-        <div class="flex flex-wrap h-20 md:h-10 border-2 items-center justify-between">
-            <a href="{{ url('/') }}" class="flex items-center no-underline sm:font-semibold ml-4 sm:text-xl sm:tracking-wide">
-                {{ config('app.name', 'FreznoShop') }}
-            </a>
-        </div>
-    </header>
+    @include('layouts.header')
 
-    <main>
+    <div id="app">
         @yield('content')
-    </main>
+    </div>
 
 </body>
 </html>

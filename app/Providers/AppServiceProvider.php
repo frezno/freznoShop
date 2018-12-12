@@ -15,6 +15,16 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
+
+        //-- Get top navigation.
+        view()->composer('navigation.topnav', function ($view) {
+
+            //-- Get all top categories.
+            $categories = \App\Models\Category::where('parent_id', 0)->where('active', 1)->get();
+
+            //-- Attach the categories to the view.
+            $view->with(compact('categories'));
+        });
     }
 
     /**
