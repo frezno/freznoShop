@@ -1,15 +1,15 @@
 <header class="bg-blue">
-    <div class="flex flex-wrap container mx-auto h-20 md:h-10 items-center justify-between">
+    <div class="flex justify-between container mx-auto h-10">
 
-        <div class="flex items-center">
-            <a href="{{ url('/') }}" class="flex items-center no-underline hover:text-white ml-4 sm:font-semibold sm:text-xl sm:tracking-wide">
+        <div class="flex items-center ml-2 md:ml-5 lg:ml-2">
+            <a href="/" class="no-underline hover:text-white sm:font-semibold sm:text-xl sm:tracking-wide">
                 {{ config('app.name', 'FreznoShop') }}
             </a>
         </div>
 
-        <div class="flex items-center h-10">
+        <div class="mt-1">
             <a href="#" target="_blank">
-                <svg aria-label="Twitter" class="bg-grey-lighter border border-grey rounded h-8 ml-4 mr-2 mt-1" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <svg aria-label="Twitter" class="bg-grey-lighter border border-grey rounded h-8" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                     <path style="fill:#03A9F4;" d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
                         c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
                         c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
@@ -21,14 +21,14 @@
             </a>
 
             <a href="#" target="_blank">
-                <svg aria-label="Facebook" class="border border-grey rounded h-8 mr-2 mt-1" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <svg aria-label="Facebook" class="border border-grey rounded h-8" role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                     <rect width="512" height="512" rx="15%" fill="#3b5998"/>
                     <path fill="#fff" d="M330 512V322h64l9-74h-73v-47c0-22 6-36 37-36h39V99c-7-1-30-3-57-3-57 0-95 34-95 98v54h-64v74h64v190z"/>
                 </svg>
             </a>
 
             <a href="#" target="_blank">
-                <svg aria-label="Instagram" class="border border-grey rounded h-8 mr-4 mt-1" role="img" viewBox="0 0 132.004 132" xmlns="http://www.w3.org/2000/svg">
+                <svg aria-label="Instagram" class="border border-grey rounded h-8 mr-2 md:mr-5 lg:mr-2" role="img" viewBox="0 0 132.004 132" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                         <linearGradient id="b">
                             <stop offset="0" stop-color="#3771c8"/>
@@ -52,6 +52,6 @@
         </div>
     </div>
 
-        @include('navigation.topnav')
+    @include('navigation.topnav')
 
 </header>
