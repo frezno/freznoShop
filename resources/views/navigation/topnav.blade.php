@@ -1,4 +1,4 @@
-<nav class="bg-blue-lightest pl-4 pr-2 py-4">
+<nav class="bg-blue-lightest pb-2 pl-4 pr-2">
 
     <div class="font-semibold">
 
