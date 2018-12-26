@@ -9,11 +9,10 @@
 
     <title>{{ config('app.name', 'FreznoShop') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('assets/js/app.js') }}" defer></script>
-
     <!-- Styles -->
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+
+    @yield('styles')
 </head>
 
 <body class="bg-blue-lightest font-sans min-h-screen">
@@ -25,6 +24,11 @@
     </div>
 
     @include('layouts.footer')
+
+<!-- Scripts -->
+<script src="{{ asset('assets/js/app.js') }}"></script>
+
+@yield('scripts')
 
 </body>
 </html>

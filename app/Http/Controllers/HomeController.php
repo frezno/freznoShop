@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\News;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,6 +14,18 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $news = $this->getActiveNews();
+
+        return view('home', compact('news'));
+    }
+
+    /**
+     * Get the news which are set to active.
+     *
+     * @return  array
+     */
+    private function getActiveNews()
+    {
+        return News::where('active', 1)->orderBy('updated_at', 'DESC')->get();
     }
 }
