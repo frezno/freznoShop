@@ -1,14 +1,21 @@
 # Release Notes for 0.2.x
 
-## [v0.2.3 (2018-12-26)](https://github.com/frezno/freznoshop/compare/v0.2.3...v0.2.4)
+## Unreleased
+
+### Fixed
+- Column to row wrapping of the main content
+- Typos in changelog-0.2 file
+
+
+## [v0.2.4 (2018-12-26)](https://github.com/frezno/freznoshop/compare/v0.2.3...v0.2.4)
 
 ### Added
 - Database seeder for the categories
-- News Model, migration and seeder
+- News model, migration and seeder
 - Displaying News at the home page
 
 ### Changed
-- Sripts are moved to the end of the file again
+- Sripts is moved to the end of the file again
 
 
 ## [v0.2.3 (2018-12-23)](https://github.com/frezno/freznoshop/compare/v0.2.2...v0.2.3)
@@ -26,9 +33,9 @@
 
 ### Added
 - Laravel Telescope
-- Top Navigation
-- Categories Model
-- Categories Migration
+- Top navigation
+- Categories model
+- Categories migration
 
 ### Changed
 - Get styles working properly
