@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Added
+- Image slider
+
+### Changed
+- Layout somewhat
+
 ### Fixed
 - Column to row wrapping of the main content
 - Typos in changelog-0.2 file
