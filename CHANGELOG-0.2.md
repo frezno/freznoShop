@@ -1,9 +1,10 @@
 # Release Notes for 0.2.x
 
-## Unreleased
+## [v0.2.5 (2019-01-02)](https://github.com/frezno/freznoshop/compare/v0.2.4...v0.2.5)
 
 ### Added
 - Image slider
+- Default info if no news are available
 
 ### Changed
 - Layout somewhat
