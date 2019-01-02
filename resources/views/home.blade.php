@@ -41,6 +41,11 @@
                     </div>
                 @endif
             @endforeach
+        @else
+            <div class="text-center text-xl tracking-wide md:p-10">
+                <p>Thank you for stopping by.<br>
+                Look around, there's a bunch of amazing products waiting for you.</p>
+            </div>
         @endif
     </div>
 
