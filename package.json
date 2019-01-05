@@ -12,8 +12,8 @@
     "devDependencies": {
         "axios": "^0.18",
         "cross-env": "^5.1",
-        "laravel-mix": "^2.1.14",
-        "laravel-mix-purgecss": "^3.0.0",
+        "laravel-mix": "^4.0.13",
+        "laravel-mix-purgecss": "^4.0.0",
         "laravel-mix-tailwind": "^0.1.0",
         "tailwindcss": "^0.7.3",
         "vue": "^2.5.21"
