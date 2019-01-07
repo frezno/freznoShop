@@ -66,83 +66,89 @@
 
     <div class="flex flex-wrap mx-auto my-4">
 
-        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
-            <div class="rounded shadow m-4">
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <a href="#" class="flex flex-col flex-1 no-underline rounded shadow m-4 text-center">
                 <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
-                <div class="p-6">
-                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
-                    <p class="font-bold text-2xl">&#36;18,95 €</p>
-                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
-                       more details &#62;
-                    </p>
-                </div>
-            </div>
-        </a>
 
-        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
-            <div class="rounded shadow m-4">
-                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
-                <div class="p-6">
-                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
-                    <p class="font-bold text-2xl">&#36;18,95 €</p>
-                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                <div class="flex flex-col flex-1 pb-3 pt-6 px-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p class="font-bold text-2xl mb-6">&#36;18,95 €</p>
+                    <p class="mt-auto inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
                        more details &#62;
                     </p>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
 
-        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
-            <div class="rounded shadow m-4">
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <a href="#" class="flex flex-col flex-1 no-underline rounded shadow m-4 text-center">
                 <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
-                <div class="p-6">
-                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
-                    <p class="font-bold text-2xl">&#36;18,95 €</p>
-                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
-                       more details &#62;
-                    </p>
-                </div>
-            </div>
-        </a>
 
-        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
-            <div class="rounded shadow m-4">
-                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
-                <div class="p-6">
-                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
-                    <p class="font-bold text-2xl">&#36;18,95 €</p>
-                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                <div class="flex flex-col flex-1 pb-3 pt-6 px-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima modi recusandae</p>
+                    <p class="font-bold text-2xl mb-6">&#36;18,95 €</p>
+                    <p class="mt-auto inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
                        more details &#62;
                     </p>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
 
-        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
-            <div class="rounded shadow m-4">
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <a href="#" class="flex flex-col flex-1 no-underline rounded shadow m-4 text-center">
                 <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
-                <div class="p-6">
-                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
-                    <p class="font-bold text-2xl">&#36;18,95</p>
-                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
-                       more details &#62;
-                    </p>
-                </div>
-            </div>
-        </a>
 
-        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
-            <div class="rounded shadow m-4">
-                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
-                <div class="p-6">
+                <div class="flex flex-col flex-1 pb-3 pt-6 px-6">
                     <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
-                    <p class="font-bold text-2xl">&#36;18,95</p>
-                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                    <p class="font-bold text-2xl mb-6">&#36;18,95 €</p>
+                    <p class="mt-auto inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
                        more details &#62;
                     </p>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
+
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <a href="#" class="flex flex-col flex-1 no-underline rounded shadow m-4 text-center">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+
+                <div class="flex flex-col flex-1 pb-3 pt-6 px-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl mb-6">&#36;18,95 €</p>
+                    <p class="mt-auto inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </a>
+        </div>
+
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <a href="#" class="flex flex-col flex-1 no-underline rounded shadow m-4 text-center">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+
+                <div class="flex flex-col flex-1 pb-3 pt-6 px-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl mb-6">&#36;18,95 €</p>
+                    <p class="mt-auto inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </a>
+        </div>
+
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <a href="#" class="flex flex-col flex-1 no-underline rounded shadow m-4 text-center">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+
+                <div class="flex flex-col flex-1 pb-3 pt-6 px-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl mb-6">&#36;18,95 €</p>
+                    <p class="mt-auto inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 @endsection
