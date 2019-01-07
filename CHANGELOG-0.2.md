@@ -1,5 +1,12 @@
 # Release Notes for 0.2.x
 
+
+## Unreleased
+
+### Added
+- Starting with a product grid as a first glimpse on the products
+
+
 ## [v0.2.5 (2019-01-02)](https://github.com/frezno/freznoshop/compare/v0.2.4...v0.2.5)
 
 ### Added

@@ -60,11 +60,89 @@
     </div>
 </div>
 
-<div class="flex flex-col md:flex-row border-t-2 mb-4">
-    <div class="container mx-auto">
-        <div class="mt-4 text-center">
-            <h2>Sneak Preview</h2>
-        </div>
+<div class="border-t-2 mx-20"></div>
+<div>
+    <h2 class="ml-4 mt-4 text-center">You might like this:</h2>
+
+    <div class="flex flex-wrap mx-auto my-4">
+
+        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
+            <div class="rounded shadow m-4">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+                <div class="p-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl">&#36;18,95 €</p>
+                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
+            <div class="rounded shadow m-4">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+                <div class="p-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl">&#36;18,95 €</p>
+                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
+            <div class="rounded shadow m-4">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+                <div class="p-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl">&#36;18,95 €</p>
+                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
+            <div class="rounded shadow m-4">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+                <div class="p-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl">&#36;18,95 €</p>
+                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
+            <div class="rounded shadow m-4">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+                <div class="p-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl">&#36;18,95</p>
+                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 no-underline text-center">
+            <div class="rounded shadow m-4">
+                <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+                <div class="p-6">
+                    <p class="font-bold text-xl mb-2">Lorem ipsum dolor sit amet</p>
+                    <p class="font-bold text-2xl">&#36;18,95</p>
+                    <p class="mt-4 inline-block bg-grey-light rounded-full px-3 py-2 font-semibold text-blue-darker hover:uppercase hover:text-blue">
+                       more details &#62;
+                    </p>
+                </div>
+            </div>
+        </a>
     </div>
 </div>
 @endsection
