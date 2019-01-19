@@ -1,6 +1,14 @@
 # Release Notes for 0.2.x
 
 
+## Unreleased
+
+### Added
+- Table, model and seed for Manufacturers
+- Table, model and seed for StockStatuses
+- Table, model and seed for Units
+
+
 ## [v0.2.6 (2019-01-14)](https://github.com/frezno/freznoshop/compare/v0.2.5...v0.2.6)
 
 ### Added
