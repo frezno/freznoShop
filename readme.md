@@ -29,7 +29,7 @@ Here you can see the [Workflow](https://github.com/frezno/freznoshop/blob/master
 
 ### Changelogs
 
-And looking at the [Changelog](https://github.com/frezno/freznoshop/blob/master/CHANGELOG-0.2.md) you can follow steps by step of what we're doing.
+And looking at the [Changelog](https://github.com/frezno/freznoshop/blob/master/CHANGELOG-0.2.md) you can follow step by step of what i'm doing.
 
 ### License
 
