@@ -41,5 +41,7 @@ class UnitsTableSeeder extends Seeder
                 'description' => 'Gallon'
             ],
         ];
+
+        DB::table('units')->insert($unis);
     }
 }

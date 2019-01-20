@@ -18,5 +18,7 @@ class StockstatusesTableSeeder extends Seeder
             ['status' => 'sold out'],
             ['status' => 'ask for availability'],
         ];
+
+        DB::table('stockstatuses')->insert($stockstatuses);
     }
 }

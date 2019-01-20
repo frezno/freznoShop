@@ -38,5 +38,7 @@ class ManufacturersTableSeeder extends Seeder
                 'logo' => 'skf_logo'
             ],
         ];
+
+        DB::table('manufacturers')->insert($manufacturers);
     }
 }
