@@ -1,7 +1,7 @@
 # Release Notes for 0.2.x
 
 
-## Unreleased
+## [v0.2.7 (2019-02-02)](https://github.com/frezno/freznoshop/compare/v0.2.6...v0.2.7)
 
 ### Added
 - Table, model and seed for Manufacturers
@@ -10,6 +10,7 @@
 - Table, model and seed for Stockstatuses
 - Table, model and seed for Units
 - Subcategories to main categories
+- Products teaser
 
 ### Changed
 - ProductGroup(s) to Productgroup(s)
