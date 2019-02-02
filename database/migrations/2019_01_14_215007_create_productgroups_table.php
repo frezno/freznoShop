@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateProductGroupsTable extends Migration
+class CreateProductgroupsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateProductGroupsTable extends Migration
      */
     public function up()
     {
-        Schema::create('product_groups', function (Blueprint $table) {
+        Schema::create('productgroups', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 50);
             $table->boolean('teaser')->default(false);
@@ -29,6 +29,6 @@ class CreateProductGroupsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('product_groups');
+        Schema::dropIfExists('productgroups');
     }
 }

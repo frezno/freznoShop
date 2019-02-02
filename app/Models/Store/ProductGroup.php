@@ -4,7 +4,7 @@ namespace App\Models\Store;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ProductGroup extends Model
+class Productgroup extends Model
 {
     /**
      * Indicates if the model should be timestamped.
