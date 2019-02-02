@@ -8,7 +8,7 @@
         @foreach($teasers as $teaser)
             <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
                 <a href="#" class="flex flex-col flex-1 no-underline rounded shadow m-4 text-center">
-                    <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="">
+                    <img src="{{ url('https://via.placeholder.com/320x180') }}" class="rounded-t" alt="{!! $teaser->name !!}">
 
                     <div class="flex flex-col flex-1 pb-3 pt-6 px-6">
                         <p class="font-bold text-xl mb-2">{!! $teaser->name !!}</p>
