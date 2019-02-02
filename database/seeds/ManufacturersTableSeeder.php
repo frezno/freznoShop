@@ -17,13 +17,16 @@ class ManufacturersTableSeeder extends Seeder
                 'logo' => 'thor_logo.jpg'
             ],
             [
-                'name' => 'Alpinestars'
+                'name' => 'Alpinestars',
+                'logo' => null
             ],
             [
-                'name' => 'Fox'
+                'name' => 'Fox',
+                'logo' => null
             ],
             [
-                'name' => 'Split'
+                'name' => 'Split',
+                'logo' => null
             ],
             [
                 'name' => 'Mitas',
