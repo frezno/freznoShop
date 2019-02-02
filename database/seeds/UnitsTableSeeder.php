@@ -42,6 +42,6 @@ class UnitsTableSeeder extends Seeder
             ],
         ];
 
-        DB::table('units')->insert($unis);
+        DB::table('units')->insert($units);
     }
 }
