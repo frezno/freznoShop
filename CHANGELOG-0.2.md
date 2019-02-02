@@ -6,8 +6,8 @@
 ### Added
 - Table, model and seed for Manufacturers
 - Table and model for Products
-- Table, model and seed for Productrroups
-- Table, model and seed for StockStatuses
+- Table, model and seed for Productgroups
+- Table, model and seed for Stockstatuses
 - Table, model and seed for Units
 - Subcategories to main categories
 
