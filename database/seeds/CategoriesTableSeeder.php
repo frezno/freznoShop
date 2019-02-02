@@ -131,6 +131,20 @@ class CategoriesTableSeeder extends Seeder
                 'slug' => 'onroad-tires',
                 'sortorder' => 2
             ],
+            [
+                'parent_id' => 11,
+                'parent_group_id' => 2,
+                'name' => 'Motor Oil',
+                'slug' => 'motor-oil',
+                'sortorder' => 1
+            ],
+            [
+                'parent_id' => 11,
+                'parent_group_id' => 2,
+                'name' => 'Suspension Oil',
+                'slug' => 'suspension-oil',
+                'sortorder' => 2
+            ],
         ];
 
         DB::table('categories')->insert($categories);
