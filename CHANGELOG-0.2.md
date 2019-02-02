@@ -5,8 +5,17 @@
 
 ### Added
 - Table, model and seed for Manufacturers
+- Table and model for Products
+- Table, model and seed for Productrroups
 - Table, model and seed for StockStatuses
 - Table, model and seed for Units
+- Subcategories to main categories
+
+### Changed
+- ProductGroup(s) to Productgroup(s)
+
+### Fixed
+- Typo in UnitsTableSeeder
 
 
 ## [v0.2.6 (2019-01-14)](https://github.com/frezno/freznoshop/compare/v0.2.5...v0.2.6)
